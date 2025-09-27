@@ -1,0 +1,19 @@
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+}
+
+img {
+    width: 100%; /* Gambar memenuhi lebar layar */
+    height: 100%; /* Gambar memenuhi tinggi layar */
+    object-fit: contain; /* Gambar tetap proporsional dan tidak terpotong */
+}
+
+.content {
+    display: flex;
+    justify-content: center; /* Memusatkan gambar secara horizontal */
+    align-items: center; /* Memusatkan gambar secara vertikal */
+    height: 100%; /* Pastikan kontainer mengambil tinggi penuh */
+}
